@@ -5,7 +5,7 @@ function mapLetters(s) {
 	  if(obj[s[x]]==undefined)
 		obj[s[x]]=[+x];
 		else
-		obj[s[x]].push([+x]);
+		obj[s[x]].push(+x);
 	}
 	return obj;
 }
